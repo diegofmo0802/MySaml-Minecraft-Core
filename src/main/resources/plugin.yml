@@ -1,0 +1,42 @@
+# Información del plugin
+author: diegofmo0802 <@diegofmo0802@mysaml.com>
+name: MySaml.core
+main: com.mysaml.mc.core.Main
+version: 1.0.0
+#api-version: 1.20.1-R0.1-SNAPSHOT
+commands:
+  MySaml:
+    aliases:
+      - mys
+      - saml
+      - mysaml
+    description: "The main command from mysaml core"
+    permission:
+    permissions-message: "You don't have permissions to execute this command"
+    usage: "/mysaml <subcommand> args..."
+  Discord:
+    aliases:
+      - discord
+      - dc
+    description: ""
+    permission: mysaml.dci
+    permissions-message: "You don't have permissions to execute this command"
+    usage: "/discord <subcommand> args..."
+permissions:
+  mysaml.dci:
+    description: "allow the discord integration config"
+  mysaml.core.config:
+    description: "allow config permission from mysaml"
+  mysaml.core.reload:
+    description: "allow reload permission from mysaml"
+  mysaml.core.start:
+    description: "allow start permission from mysaml"
+  mysaml.core.stop:
+    description: "allow stop permission from mysaml"
+  mysaml.core.*:
+    description: "allow all permissions from mysaml"
+    children:
+      mysaml.core.config: true
+      mysaml.core.reload: true
+      mysaml.core.start: true
+      mysaml.core.stop: true

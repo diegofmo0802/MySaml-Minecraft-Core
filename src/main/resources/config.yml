@@ -1,0 +1,6 @@
+########################################################
+#                 Config de depuración                 #
+#                                                      #
+# la config no es usada por MySaml core por el momento #
+########################################################
+ErrorLog: true
