@@ -1,6 +1,6 @@
 # MySaml-Minecraft-Core
 
-Este proyecto consiste en una plugin loader basado en su propia api de creacion de plugins junto al api propia de spigot
+Este proyecto consiste en una plugin loader basado en su propia api de creación de plugins junto al api propia de spigot
 
 ## Descarga e instalación
 
@@ -21,7 +21,7 @@ en la carpeta addons deberás poner los archivos jar que necesiten MySaml-Minecr
 
 ### Creación de plugins utilizando MySaml-Minecraft-Core
 Para esto primero debes crear un proyecto de **java with maven**
-Tambien debes añadir las dependencias tanto de MySaml-Minecraft-Core como la de spigot
+También debes añadir las dependencias tanto de MySaml-Minecraft-Core como la de spigot
 
 #### Repositorios
 ```xml
