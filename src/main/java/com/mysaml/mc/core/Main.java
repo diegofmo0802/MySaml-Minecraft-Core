@@ -25,7 +25,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info(Base.Color("&dLoading commands"));
-        loader = new Loader("./plugins/MySaml/plugins", this, getClassLoader());
+        loader = new Loader("./plugins/MySaml/addons", this, getClassLoader());
         utilities.print("plugins loaded: " + loader.loadPlugins().size());
         getLogger().info(Base.Color("&d╔═════════════════════╗"));
         getLogger().info(Base.Color("&d║ &bMySaml.Core &aEnabled &d║"));
